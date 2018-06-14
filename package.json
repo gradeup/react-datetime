@@ -27,7 +27,8 @@
     "test:snapshot": "./node_modules/.bin/jest snapshot",
     "test:snapshot:update": "./node_modules/.bin/jest snapshot --updateSnapshot",
     "test:all": "echo 'Running tests...' && npm run test:typings && npm run test && echo 'All tests passed! 🤘'",
-    "test:watch": "./node_modules/.bin/jest --watch"
+    "test:watch": "./node_modules/.bin/jest --watch",
+    "release": "release-it --no-npm.publish"
   },
   "keywords": [
     "react",
@@ -82,7 +83,8 @@
     "create-react-class": "^15.5.2",
     "object-assign": "^3.0.0",
     "prop-types": "^15.5.7",
-    "react-onclickoutside": "^6.5.0"
+    "react-onclickoutside": "^6.5.0",
+    "release-it": "^7.4.7"
   },
   "pre-commit": [
     "notify-pre-commit-hook",
