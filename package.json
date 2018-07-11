@@ -1,5 +1,5 @@
 {
-  "name": "react-datetime",
+  "name": "@gradeup/react-datetime",
   "version": "2.14.1",
   "description": "A lightweight but complete datetime picker React.js component",
   "homepage": "https://github.com/YouCanBookMe/react-datetime",
@@ -38,12 +38,14 @@
     "datetimepicker",
     "datetime"
   ],
-  "author": "Javier Marquez",
   "license": "MIT",
   "peerDependencies": {
     "moment": ">=2.16.0",
     "react": ">=0.13",
     "react-dom": ">=0.13"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/react": ">=15",
